@@ -12,7 +12,7 @@ const contactsSlice = createSlice({
     error: false,
     errorMessage: "",
   },
-  // Об'єкт редюсерів
+  // Об'єкт асинхронних редюсерів
   extraReducers: (builder) => {
     builder
       .addCase(fetchContacts.fulfilled, (state, { payload }) => {
