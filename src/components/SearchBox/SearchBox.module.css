@@ -1,0 +1,10 @@
+.searchField {
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  margin: 20px 0px;
+}
+
+.searchField label {
+  font-size: 0.875rem;
+}

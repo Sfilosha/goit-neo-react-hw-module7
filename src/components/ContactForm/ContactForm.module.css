@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem;
+  border: 1px solid rgb(223, 223, 223);
+  background-color: white;
+  border-radius: 1rem;
+  max-width: 300px;
+}
+
+.fieldsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.fieldWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldWrapper label {
+  font-size: 0.875rem;
+}
+
+.error {
+  color: red;
+}

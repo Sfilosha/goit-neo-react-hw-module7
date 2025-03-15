@@ -1,0 +1,27 @@
+.contactDetailsList {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 0.875rem;
+}
+.contactDetailsItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.buttonRed {
+  background-color: rgb(209, 66, 66);
+  color: white;
+  border: 0px;
+}
+
+.buttonRed:hover {
+  background-color: rgb(122, 12, 12);
+}
